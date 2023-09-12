@@ -1,0 +1,458 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1920px;
+    height: 3279px;
+    margin: auto;
+}
+
+.top-line {
+    width: 1920px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-line_menu {
+    width: 447px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-line_menu>a {
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav {
+    width: 1920px;
+    height: 149px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.second-line_info {
+    width: 1920px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-right: -220px;
+    margin-top: 13px;
+}
+
+.beauty {
+    width: 158px;
+    height: 39px;
+    color: #F13C6E;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 10%;
+}
+
+.inp {
+    border-radius: 40px;
+    border: #EFEFEF;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 127px;
+    height: 19px;
+    margin-right: -150px;
+}
+
+.number>a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.callback {
+    width: 170px;
+    height: 40px;
+}
+
+.callback>button {
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: solid 2px #F13C6E;
+    color: #000000;
+}
+
+.second-line_main-menu {
+    width: 675px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-line_main-menu>a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+article {
+    width: 1920px;
+    height: 604px;
+    background-image: url('image/sale.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.on_picture {
+    width: 308px;
+    height: 219px;
+    margin-left: 405px;
+    margin-top: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.on_picture>h1,
+div,
+a,
+button {
+    color: #FFFFFF;
+}
+
+.super_rectangle {
+    /* Если ставить как в фигме width: 308px, то контент не влазит в див */
+    width: 308px;
+    height: 44px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.promo {
+    width: 308px;
+    height: 35px;
+}
+
+.promo>a {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.more>button {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 5%;
+    width: 170px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #FFFFFF;
+    background-color: #F13C6E;
+}
+
+.offers {
+    width: 1110px;
+    height: 430px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.special_offers {
+    /* Если ставить как в фигме width: 320px, то контент не влазит в див */
+    width: 100%;
+    height: 29px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.offer_rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer_rectangle>div {
+    width: 255px;
+    height: 363px;
+}
+
+.rectangle_norm {
+    width: 195px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+}
+
+.price {
+    width: 80px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 5%;
+    text-align: center;
+    color: #000000;
+}
+
+.buy>button {
+    width: 130px;
+    height: 35px;
+    border-radius: 40px;
+    background-color: #F13C6E;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 5%;
+    text-align: center;
+}
+
+.lot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe_ourshop {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.subscribe,
+.our_shop {
+    width: 540px;
+    height: 212px;
+    background-image: url(image/pink_backround.png);
+}
+
+.title {
+    /* Если ставить как в фигме width: 250px, то контент не влазит в див */
+    width: 100%;
+    height: 17px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.lottery {
+    width: 231px;
+    height: 40px;
+
+}
+
+.lottery>a {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.email>input {
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+}
+
+.email>input::placeholder {
+    width: 96px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.subscribe,
+.our_shop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.shops300 {
+    width: 141px;
+    height: 40px;
+}
+
+.shops300>a {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.map {
+    width: 170px;
+    height: 35px;
+}
+
+.map>button {
+    width: 170px;
+    height: 35px;
+    border: solid 2px #FFFFFF;
+    background-color: #F13C6E;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.impuls {
+    width: 1110px;
+    height: 357px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.impuls>div {
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+footer {
+    width: 1920px;
+    height: 557px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular_categories {
+    display: flex;
+    justify-content: center;
+}
+
+.popular {
+    width: 255px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.categories {
+    width: 99px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.other>div {
+    width: 82px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+}
+
+.other>div>a {
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.icons_address_call {
+    width: 1100px;
+    height: 45px;
+    margin: auto;
+}
+
+.ellipse {
+    background-image: url(image/ellipse.png);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+}
+
+address {
+    width: 227px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-style: normal;
+}
+
+.icons_address_call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online-store {
+    width: 584px;
+    height: 14px;
+}
+
+.policy {
+    width: 181px;
+    height: 14px;
+}
+
+.privacy_policy>div>a {
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.privacy_policy {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
